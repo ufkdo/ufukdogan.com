@@ -9,6 +9,7 @@
 <meta property="og:description" content="Supply chain leader. Finance-trained. Building with AI.">
 <meta property="og:url" content="https://ufukdogan.com/">
 <meta property="og:type" content="website">
+<meta property="og:image" content="https://ufukdogan.com/photo.jpg">
 <link rel="canonical" href="https://ufukdogan.com/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%231f5f5b'/%3E%3Ctext x='32' y='41' font-family='Georgia,serif' font-size='26' fill='white' text-anchor='middle'%3EUD%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,8 +49,7 @@ nav ul a:hover{color:var(--ink)}
 .eyebrow{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:18px}
 .hero h1{font-size:clamp(40px,7vw,60px);line-height:1.05;margin-bottom:22px}
 .lede{font-size:19px;color:var(--muted);max-width:30em}
-.photo{width:150px;height:150px;border-radius:50%;background:var(--accent-soft);color:var(--accent);
-  display:grid;place-items:center;font-family:Newsreader,serif;font-size:52px;border:1px solid var(--line)}
+.photo{width:150px;height:150px;border-radius:50%;object-fit:cover;background:var(--accent-soft);border:1px solid var(--line)}
 .btn{display:inline-flex;align-items:center;gap:10px;margin-top:30px;padding:12px 20px;border-radius:999px;
   background:var(--ink);color:var(--bg);text-decoration:none;font-weight:500;font-size:15px}
 .btn:hover{opacity:.88}
@@ -105,7 +105,7 @@ footer a{color:var(--muted)}
   .wrap{padding:0 16px}
   nav ul{display:none}
   .hero{grid-template-columns:1fr;padding:40px 0 48px;gap:28px}
-  .photo{width:96px;height:96px;font-size:34px;order:-1}
+  .photo{width:96px;height:96px;order:-1}
   .steps{grid-template-columns:1fr}
   .tl li{grid-template-columns:1fr;gap:2px}
   .row{grid-template-columns:1fr}
@@ -137,7 +137,7 @@ footer a{color:var(--muted)}
     </a>
     <a class="btn ghost" href="#contact">Get in touch</a>
   </div>
-  <div class="photo" aria-label="Photo placeholder">UD</div>
+  <img class="photo" src="photo.jpg" width="150" height="150" alt="Ufuk Doğan">
 </header>
 
 <section id="work">
